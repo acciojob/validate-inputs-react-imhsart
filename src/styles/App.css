@@ -1,1 +1,39 @@
-
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: rgb(246, 245, 245);
+  padding: 20px;
+  border-radius: 5px;
+  row-gap: 10px;
+  margin:10px;
+}
+.errorMessage{
+  color:red;
+}
+label{
+  color:rgb(88, 88, 88)
+}
+input{
+  padding: 8px;
+  border-radius: 10px;
+  border:2px solid rgb(182, 182, 182);
+}
+button{
+  margin:10px;
+  width: fit-content;
+  padding: 10px 20px;
+  margin-inline-start: 75%;
+  border-radius: 10px;
+  background-color: teal;
+  border:none;
+  color: white;
+}
+button:active{
+  background-color: rgb(1, 164, 164);
+}
