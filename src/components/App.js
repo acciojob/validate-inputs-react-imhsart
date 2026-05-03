@@ -14,7 +14,7 @@ const App = () => {
     e.preventDefault()
 
     if(!name.match(/^[a-zA-Z]+$/)){
-      setError(prev => ({...prev,name:'Name should only contain letters'}))
+      setError(prev => ({...prev,name:'Name should contain only letters'}))
     }
     if(!address.match(/^[a-zA-Z0-9]+$/)){
       setError(prev => ({...prev, address:'Address should not contain special characters'}))
